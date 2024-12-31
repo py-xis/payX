@@ -92,9 +92,6 @@ const updateUserInfo = async(req, res) => {
     
     const {password, firstName, lastName} = req.body;
 
-    if(password){
-        updatePassword
-    }
 
 }
 
