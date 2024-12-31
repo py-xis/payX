@@ -1,0 +1,22 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env
+
+# Ignore build artifacts
+/dist/
+/build/
+
+/# Ignore Docker artifacts
+*.tar
+*.lock
+
+# Ignore npm debug files
+npm-debug.log*
